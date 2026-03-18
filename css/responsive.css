@@ -27,37 +27,6 @@
 }
 
 @media (max-width: 768px) {
-    .about_section .about_container .container {
-        flex-direction: column;
-    }
-
-    .about_section .about_container {
-        width: 90%;
-    }
-
-    .about_section .about_container .container>div {
-        width: 95%;
-    }
-
-    .about_section .detail a {
-        margin: 25px auto 35px auto;
-    }
-
-    .about_section .detail a {
-
-        background-color: #00ff00;
-        color: #ffffff;
-
-    }
-
-    .client_section .client_container {
-        width: 100%;
-    }
-
-    .client_section .carousel-indicators {
-        justify-content: center;
-    }
-
     .qr_panel {
         flex-direction: column;
         text-align: center;
@@ -126,23 +95,6 @@
         padding-top: 10px;
     }
 
-    .client_section .client_container {
-        flex-direction: column;
-    }
-
-    .client_section .img_box {
-        margin-bottom: 25px;
-    }
-
-    .client_section .detail_box {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .client_section .detail_box h5 {
-        flex-direction: row;
-    }
-
 }
 
 @media (max-width: 480px) {
@@ -151,8 +103,8 @@
     }
 
     .site-logo {
-        width: 46px;
-        height: 46px;
+        width: 92px;
+        height: 92px;
     }
 
     .navbar-brand span {
