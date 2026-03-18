@@ -13,6 +13,16 @@
 @media (max-width: 992px) {
     .custom_nav-container {
         flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .navbar-brand span {
+        font-size: 20px;
+    }
+
+    .hero_detail p {
+        font-size: 16px;
     }
 }
 
@@ -47,11 +57,37 @@
     .client_section .carousel-indicators {
         justify-content: center;
     }
+
+    .qr_panel {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .whatsapp_qr_image {
+        width: 200px;
+        height: 200px;
+    }
+
+    .catalog_panel {
+        padding: 18px;
+    }
 }
 
 @media (max-width: 576px) {
     .hero_section h1 {
         font-size: 58px;
+    }
+
+    .hero_section {
+        height: auto;
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+
+    .hero_section .hero_btn-box a {
+        display: block;
+        margin: 14px auto 0;
+        max-width: 260px;
     }
 
     .product_section .container {
@@ -63,9 +99,31 @@
     .product_section .img-box.box-3,
     .product_section .img-box.box-2,
     .product_section .img-box.box-4 {
-        width: auto;
-        margin: 15px 25px;
+        width: 100%;
+        margin: 15px 0;
 
+    }
+
+    .section_intro {
+        font-size: 15px;
+        padding: 0 12px;
+    }
+
+    .contact_info .info_item .d-flex {
+        align-items: flex-start !important;
+    }
+
+    .quick_actions {
+        padding: 22px;
+    }
+
+    .contact_qr_image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .catalog_section {
+        padding-top: 10px;
     }
 
     .client_section .client_container {
@@ -90,6 +148,15 @@
 @media (max-width: 480px) {
     .hero_section h1 {
         font-size: 36px;
+    }
+
+    .site-logo {
+        width: 46px;
+        height: 46px;
+    }
+
+    .navbar-brand span {
+        font-size: 17px;
     }
 }
 
